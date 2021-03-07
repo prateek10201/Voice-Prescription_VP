@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".old_prescriptions"
+    android:background="@drawable/oldprescriptions_bg">
+    
+    <SearchView
+        android:id="@+id/search_pres"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:searchIcon="@drawable/search"
+        android:layout_centerHorizontal="true"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="379dp"
+        android:layout_marginTop="100dp"
+        />
+
+
+    <ListView
+        android:id="@+id/patient_record"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:cacheColorHint="#F87F97"
+        tools:layout_conversion_absoluteHeight="371dp"
+        tools:layout_conversion_absoluteWidth="305dp"/>
+
+    <Button
+        android:id="@+id/btn_fetch"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/fetch_btn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="55dp"
+            android:textSize="15sp"
+            android:text="Copyrights"
+            android:textColor="#9DB0D2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <ImageView
+            android:background="@drawable/ic_baseline_copyright_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:text="All Rights Reserved by APROR"
+            android:textColor="#9DB0D2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_bg">
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="41dp"
+        android:background="@drawable/logout" />
+
+    <EditText
+        android:id="@+id/docname"
+        android:layout_width="559dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="455dp"
+        android:background="@drawable/time_bg" />
+
+    <Button
+        android:id="@+id/new_pres"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/docname"
+        android:layout_alignLeft="@+id/docname"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="660dp"
+        android:background="@drawable/new_pres" />
+
+    <Button
+        android:id="@+id/patient_history"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/docname"
+        android:layout_alignRight="@+id/docname"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="660dp"
+        android:background="@drawable/patient_history" />
+
+    <Button
+        android:id="@+id/old_pres"
+        android:layout_width="550dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="920dp"
+        android:background="@drawable/old_prescription" />
+
+    <Button
+        android:id="@+id/aboutme"
+        android:layout_width="550dp"
+        android:layout_height="130dp"
+        android:background="@drawable/aboutme"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1080dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newprescritpion_one"
+    android:background="@drawable/pres_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prescription no. :"
+            android:textColor="#000"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/patient_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="prescription number"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp">
+
+        <EditText
+            android:id="@+id/pname"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:background="@drawable/input_field"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:inputType="textPersonName"
+            android:hint="Name"/>
+
+        <Button
+            android:id="@+id/pnamemice"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_mic_red"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="205dp">
+
+        <EditText
+            android:id="@+id/page"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/input_field"
+            android:inputType="number"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:hint="Age"/>
+
+        <Spinner
+            android:id="@+id/psex"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:background="@drawable/input_field"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="274dp">
+
+        <EditText
+            android:id="@+id/psymptom"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:background="@drawable/inputfield_one"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:inputType="textMultiLine"
+            android:hint="Symptom"/>
+
+        <Button
+            android:id="@+id/psymptommice"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_mic_red"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="438dp">
+
+        <EditText
+            android:id="@+id/pdiagnosis"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:background="@drawable/inputfield_one"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:inputType="textMultiLine"
+            android:hint="Diagnosis"/>
+
+        <Button
+            android:id="@+id/pdiagnosismice"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_mic_red"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:background="@drawable/nextpage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="598dp"/>
+
+</RelativeLayout>
